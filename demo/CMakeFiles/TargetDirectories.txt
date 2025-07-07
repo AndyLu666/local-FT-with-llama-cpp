@@ -1,0 +1,5 @@
+/Users/tony/Downloads/llama.cpp/demo/CMakeFiles/simple-mlp.dir
+/Users/tony/Downloads/llama.cpp/demo/CMakeFiles/enhanced-mlp.dir
+/Users/tony/Downloads/llama.cpp/demo/CMakeFiles/enhanced-mlp-with-src.dir
+/Users/tony/Downloads/llama.cpp/demo/CMakeFiles/edit_cache.dir
+/Users/tony/Downloads/llama.cpp/demo/CMakeFiles/rebuild_cache.dir
