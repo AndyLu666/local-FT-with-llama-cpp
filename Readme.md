@@ -1,5 +1,5 @@
 
-# local-FT-with-llama-cpp 🦙⚡️
+# local-FT-with-llama-cpp 
 
 Fine‑tune **GPT‑2** (and other GGUF models) **directly on edge devices** with the raw speed of [llama.cpp](https://github.com/ggerganov/llama.cpp).
 
@@ -13,19 +13,19 @@ Fine‑tune **GPT‑2** (and other GGUF models) **directly on edge devices** wit
 
 ---
 
-## ✨ Project highlights
+## Project highlights
 
 | Feature | Status | Notes |
 |---------|--------|-------|
-| **Back‑prop (`loss.backward`) in GGML** | ✅ | added new `mse_loss` forward / backward kernels |
-| **GPT‑2 training graph in C** | ✅ | builds a full forward+backward compute graph at runtime |
-| **HF → GGUF converter** | ✅ | `convert-hf-to-gguf.py` supports GPT‑2 (all sizes) |
-| **Int8 / f16 training** | 🧪 | mixed precision kernels implemented, need more testing |
-| **Edge builds (macOS 📱 / Linux 🖥 / Windows 👾 / RPi 🍓)** | ✅ | single‑file C build, no Python required at runtime |
+| **Back‑prop (`loss.backward`) in GGML** |  added new `mse_loss` forward / backward kernels |
+| **GPT‑2 training graph in C** |  builds a full forward+backward compute graph at runtime |
+| **HF → GGUF converter** |  `convert-hf-to-gguf.py` supports GPT‑2 (all sizes) |
+| **Int8 / f16 training** |  mixed precision kernels implemented, need more testing |
+| **Edge builds (macOS / Linux / Windows / RPi)** |  single‑file C build, no Python required at runtime |
 
 ---
 
-## 🚀 Quick start
+## Quick start
 
 ```bash
 # 0. clone
@@ -53,7 +53,7 @@ step 00100 | loss 3.28 | ppl 26.6 | +dW 3.9 MB | 440 tok/s on MacBook Air M1
 
 ---
 
-## 🗂 Repository layout
+## Repository layout
 
 ```
 .
@@ -84,7 +84,7 @@ step 00100 | loss 3.28 | ppl 26.6 | +dW 3.9 MB | 440 tok/s on MacBook Air M1
 
 ---
 
-## 👷‍♀️ Fine‑tuning details
+## Fine‑tuning details
 
 | hyper‑param | default | CLI flag |
 |-------------|---------|----------|
@@ -97,7 +97,7 @@ The training loop is **pure C** – no PyTorch. A 24‑layer GPT‑2 *medium* fi
 
 ---
 
-## ⚡ Benchmarks
+## Benchmarks
 
 | Device | GPT‑2 (117 M) | GPT‑2‑medium (345 M) |
 |--------|---------------|----------------------|
@@ -108,22 +108,22 @@ The training loop is **pure C** – no PyTorch. A 24‑layer GPT‑2 *medium* fi
 
 ---
 
-## 🛠 Roadmap
+## Roadmap
 
 - [ ] Flash‑Attention v2 kernels  
 - [ ] LoRA / QLoRA adapter updates  
 - [ ] Stream‑in / streaming datasets  
-- [ ] WebAssembly build for browser fine‑tuning 🤯
+- [ ] WebAssembly build for browser fine‑tuning 
 
 ---
 
-## 📜 License
+## License
 
 Apache 2.0 – same as upstream llama.cpp. See `LICENSE`.
 
 ---
 
-## 🙏 Acknowledgements
+## Acknowledgements
 
 * Georgi Gerganov for **llama.cpp**  
 * HuggingFace for the *transformers* & model hub  
