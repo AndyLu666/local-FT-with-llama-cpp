@@ -3,10 +3,6 @@
 
 Fine‑tune **GPT‑2** (and other GGUF models) **directly on edge devices** with the raw speed of [llama.cpp](https://github.com/ggerganov/llama.cpp).
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/ggerganov/llama.cpp/master/examples/screenshots/llama_cpp_logo_see_no_evil.png" width="320" alt="llama.cpp logo"/>
-</p>
-
 > **Why?**  
 > Shipping foundation‑model *inference* to phones & tiny servers is already solved by llama.cpp.  
 > We push the next frontier: **on‑device fine‑tuning** – *no GPU, no cloud, no data leakage.*
