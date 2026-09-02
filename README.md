@@ -4,8 +4,10 @@
 
 ## News
 
-- **[2025-12-01]** We have open-sourced MobileFineTuner, a C++ framework for mobile-native LLM fine-tuning.
+- **[2026-09-01]** Our paper "**MobileFineTuner: A Mobile-Native Framework for On-Device LLM Fine-Tuning in Real-World Embedded AI Applications**" has been conditional accepted by Sensys2027~
 - **[2026-07-10]** [MobileRLHF](MobileRLHF) now supports reinforcement-learning-based preference post-training on smartphones in both standalone and federated settings.
+- **[2025-12-01]** We have open-sourced MobileFineTuner, a C++ framework for mobile-native LLM fine-tuning.
+
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
 [![Platform](https://img.shields.io/badge/Platform-C%2B%2B%20Core%20%7C%20Android%20Native-green.svg)]()
